@@ -42,7 +42,7 @@
 #
 class ansible::user(
   $sudo = 'disable',
-  $password = '*NP*'
+  $password = undef
 ) {
 
   include ansible::params
